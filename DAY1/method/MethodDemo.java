@@ -4,10 +4,13 @@ public class MethodDemo {
     static void greet(){
         System.out.println("Welcome to Java!");
     }
+    static void welcome(String name){
+        System.out.println("Hello," + name);
+    }
+
 
     public static void main(String[] args){
-        greet();
-        greet();
+        welcome("Mikasa");
         greet();
     }
 }
