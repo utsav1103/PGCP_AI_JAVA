@@ -15,6 +15,12 @@ public class variable {
         System.out.println(marks);
         System.out.println(grade);
         System.out.println(isPassed);
+        System.out.println(isPassed);
+
+
+        //different way to print
+        System.out.println("Name :" + name);
+        System.out.println("Age :" + age);
 
     }
 }
