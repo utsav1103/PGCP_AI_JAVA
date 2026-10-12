@@ -16,14 +16,44 @@ public class operators {
 //        System.out.println("Remainder = " + (a % b));
 //
 //        sc.close();
+    // Assignment operators
+//        int x = 10;
+//
+//        x += 5;
+//        System.out.println(x);
+//
+//        x *= 2;
+//        System.out.println(x);
 
-        int x = 10;
 
-        x += 5;
+    // Relational or comparison operators
+
+        //Remember the difference between = and ==:
+        // = assigns a value.
+        // == compares two values.
+
+        int age = 22;
+
+        System.out.println(age >= 18);
+        System.out.println(age < 18);
+
+
+    // logical operators
+
+
+        int marks = 75;
+        boolean attendance = true;
+
+        System.out.println(marks >= 40 && attendance);
+
+        // increment and decrement
+
+        int x = 5;
+
+        x++;
         System.out.println(x);
 
-        x *= 2;
+        x--;
         System.out.println(x);
-
     }
 }
