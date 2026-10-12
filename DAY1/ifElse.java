@@ -1,5 +1,5 @@
 package DAY1;
-
+import java.util.Scanner;
 public class ifElse {
 //    public static void main(String[] args) {
 //        int age = 20;
@@ -17,9 +17,25 @@ public class ifElse {
 //            } else {
 //                System.out.println("Not eligible to vote");
 //            }
-            int marks = 96;
+//            int marks = 96;
+//
+//            if (marks >= 85) {
+//                System.out.println("Grade A");
+//            } else if (marks >= 70) {
+//                System.out.println("Grade B");
+//            } else if (marks >= 50) {
+//                System.out.println("Grade C");
+//            } else {
+//                System.out.println("Grade F");
+//            }
+            Scanner sc = new Scanner(System.in);
 
-            if (marks >= 85) {
+            System.out.print("Enter your marks: ");
+            int marks = sc.nextInt();
+
+            if (marks < 0 || marks > 100) {
+                System.out.println("Invalid marks");
+            } else if (marks >= 85) {
                 System.out.println("Grade A");
             } else if (marks >= 70) {
                 System.out.println("Grade B");
@@ -28,5 +44,8 @@ public class ifElse {
             } else {
                 System.out.println("Grade F");
             }
+
+            sc.close();
+
         }
 }
