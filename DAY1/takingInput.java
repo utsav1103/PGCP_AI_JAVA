@@ -3,6 +3,13 @@ import java.util.Scanner;
 public class takingInput {
     public static void main(String[] args){
 
+        //Method	Reads
+        //nextInt()	Integer
+        //nextDouble()	Decimal number
+        //next()	One word
+        //nextLine()	A complete line of text
+        //nextBoolean()	true or false
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter your name: ");
